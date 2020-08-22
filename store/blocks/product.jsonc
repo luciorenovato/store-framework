@@ -40,6 +40,9 @@
   "search-content": {
     "blocks": ["gallery", "not-found"]
   },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
