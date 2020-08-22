@@ -17,8 +17,7 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "stack-layout#brand",
-      "filter-navigator.v3"
+      "stack-layout#brand"
     ]
   },
   "flex-layout.col#right": {
@@ -28,20 +27,12 @@
       "product-price",
       "flex-layout.row#qty-sku",
       "shipping-simulator",
-      "buy-button",
-      "search-content",
-      "product-summary"
+      "buy-button"
     ],
     "props": {    
       "verticalAlign": "middle",
       "preventVerticalStretch": true
     }
-  },
-  "search-content": {
-    "blocks": ["gallery", "not-found"]
-  },
-  "gallery": {
-    "blocks": ["product-summary.shelf"]
   },
   "flex-layout.row#qty-sku": {
     "children": [
